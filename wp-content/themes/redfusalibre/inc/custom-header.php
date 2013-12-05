@@ -60,6 +60,11 @@ function twentythirteen_custom_header_setup() {
 			'thumbnail_url' => '%s/images/headers/star-thumbnail.png',
 			'description'   => _x( 'Star', 'header image description', 'twentythirteen' )
 		),
+		'fogata' => array(
+			'url'           => '%s/images/headers/fogata.png',
+			'thumbnail_url' => '%s/images/headers/fogata-thumbnail.png',
+			'description'   => _x( 'Fogata', 'header image description', 'twentythirteen' )
+		),
 	) );
 }
 add_action( 'after_setup_theme', 'twentythirteen_custom_header_setup', 11 );
